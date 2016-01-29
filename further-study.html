@@ -67,11 +67,16 @@
         var myRevenue = revenue();
         myRevenueMessage.html("Today's revenues: " + myRevenue.toFixed(2));
 
+        myImage.fadeOut(1000);
         myImage.attr('src', "static/coffee_machine.jpg");
 
-        setTimeout(function () { myImage.attr('src', "static/coffee_mug.jpg"); }, 1000);
+        setTimeout(function () { 
+            myImage.fadeIn(5000);
+            myImage.attr('src', "static/coffee_mug.jpg"); }, 1000);
 
-        setTimeout(function () { myImage.attr('src', "static/coffee_beans.jpg"); }, 2500);
+        setTimeout(function () { 
+            myImage.fadeIn();   
+            myImage.attr('src', "static/coffee_beans.jpg"); }, 2500);
     }
 
 
