@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  /*background-image: url("coffee_beans.jpg");*/
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+h4{
+    text-align: left;
+}
